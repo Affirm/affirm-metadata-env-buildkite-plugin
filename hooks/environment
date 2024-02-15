@@ -13,7 +13,7 @@ main() {
 }
 
 function plugin_read_list() {
-  local prefix="BUILDKITE_PLUGIN_METADATA_ENV_KEYS"
+  local prefix="BUILDKITE_PLUGIN_AFFIRM_METADATA_ENV_KEYS"
   local parameter="${prefix}_0"
 
   if [[ -n "${!parameter:-}" ]]; then
